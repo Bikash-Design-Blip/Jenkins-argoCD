@@ -1,0 +1,2 @@
+curl -sO http://54.177.50.21:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://54.177.50.21:8080/ -secret 18c03fa1aca764803eab7ba9370cb8f2613f37b7e15abf0138996f56fb7acb33 -name bikashtestnode -webSocket -workDir "/home/jenkins"
